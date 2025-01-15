@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-6^$juvzrquoc2w!!65#lf_s6b1b(i1rympgql!(!qw1o+vvlie
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://ygo-grid-backend.onrender.com']
+ALLOWED_HOSTS = ['ygo-grid-backend.onrender.com']
 
 
 # Application definition
