@@ -1,2 +1,14 @@
+# Python-related ignores
+*.pyc
+__pycache__/
+venv/
+env/
+*.pyo
+*.pyd
 
-.DS_Store
+# Virtual environment directories
+.env/
+.venv/
+*.pyc
+*.pyc
+grid_backend/__pycache__/settings.cpython-311.pyc
