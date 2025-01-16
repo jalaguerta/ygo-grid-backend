@@ -12,3 +12,4 @@ env/
 *.pyc
 *.pyc
 grid_backend/__pycache__/settings.cpython-311.pyc
+*.pyc
