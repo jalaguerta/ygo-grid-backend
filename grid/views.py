@@ -45,8 +45,7 @@ class ValidateCardAPIView(APIView):
             print("Valid Card Found:", card.name, "-", card.description)
             return Response({
                 "message": "Valid guess!",
-                "card_name": card.name,
-                "card_desc": card.description
+                "card_name": card.name
             }, status=status.HTTP_200_OK)
         else:
             # Print the error message for failed validation
