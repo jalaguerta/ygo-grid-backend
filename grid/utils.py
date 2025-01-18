@@ -21,4 +21,4 @@ def validate_guess(card_name, criteria):
         card = Card.objects.get(**filters)
         return {"success": True, "card": card}
     except Card.DoesNotExist:
-        return {"success": False, "error": "No matching card found."}
+        return {"success": False, "error": "Incorrect Guess! Try again."}
